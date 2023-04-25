@@ -1,0 +1,208 @@
+* {
+    /* border: red 1px solid; */
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    box-sizing: border-box;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+}
+
+/* HEADER */
+
+header {
+    text-align: -webkit-center;
+}
+
+header div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div img {
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    color: hsl(171, 66%, 44%);
+    text-align: center;
+    font-weight: 100;
+    font-size: 110px;
+    border: hsl(171, 66%, 44%) 5px solid;
+    border-radius: 50%;
+    -webkit-border-radius: 50px;
+    line-height: 100px;
+    width: 100px;
+}
+
+header h2 {
+    font-size: 40px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+
+header p {
+    margin-top: 10px;
+    width: 50%;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.bios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.bmac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.bios a {
+    color: black;
+    text-decoration: none;
+}
+
+.bmac a {
+    color: black;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+main {
+    text-align: -webkit-center;
+}
+
+main h2 {
+    font-size: 30px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    margin-top: 80px;
+}
+
+.sub {
+    width: 50%;
+    margin-top: 10px;
+}
+
+#duno {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 10px 0px 10px;    
+}
+
+#duno img {
+    width: 50%;
+}
+
+#dunouno {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dunouno div {
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: left;
+}
+
+#dunouno div h3 {
+    margin-bottom: 10px;
+}
+
+
+#ddos img {
+    margin-top: 60px;
+    width: 60%;
+}
+
+#dtres h2 {
+    margin-top: 0px;
+}
+
+#dtresdos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 60px 60px;
+}
+
+#dtresdos div {
+    width: 25%;
+}
+
+#dcuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#dcuatro img {
+    width: 10%;
+    margin: 0 20px 0;
+}
+
+#dcinco p {
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 10px 0;
+    background-color: aliceblue;
+}
+
+footer h1 {
+    position: static;
+}
+
+#flog {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#flinks {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#flinks a {
+    width: 20%;
+    height: 30%;
+    margin: 0 20px;
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+
+#fredes {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
